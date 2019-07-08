@@ -37,12 +37,12 @@ echo "copy text to buffer"
 
 #### Interrupt command
 
-[source,bash,role=copy]
+[source,bash,role=execute]
 ----
 sleep 3600
 ----
 
-[source,bash,role=copy]
+[source,bash,role=execute]
 ----
 <ctrl-c>
 ----
