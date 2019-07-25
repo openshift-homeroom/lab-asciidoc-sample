@@ -70,6 +70,8 @@ project_namespace: %project_namespace%
 
 cluster_subdomain: %cluster_subdomain%
 
+image_registry: %image_registry%
+
 #### Web site links
 
 link:https://www.openshift.com[External]
