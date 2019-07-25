@@ -35,6 +35,13 @@ echo "execute in terminal 1"
 echo "copy text to buffer"
 ----
 
+#### Click text to copy (and edit)
+
+[source,bash,role=copy-and-edit]
+----
+echo "copy text to buffer"
+----
+
 #### Interrupt command
 
 [source,bash,role=execute]
