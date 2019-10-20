@@ -14,7 +14,7 @@ configMapGenerator:
   behavior: merge
   literals:
   - APPLICATION_NAME="lab-asciidoc-sample"
-  - TERMINAL_IMAGE="quay.io/openshifthomeroom/lab-asciidoc-sample:1.7"
+  - TERMINAL_IMAGE="quay.io/openshifthomeroom/lab-asciidoc-sample:1.8"
   - RESOURCE_BUDGET="small"
   - MAX_SESSION_AGE="900"
   - IDLE_TIMEOUT="300"
