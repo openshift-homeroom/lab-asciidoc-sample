@@ -12,12 +12,7 @@ commonLabels:
 configMapGenerator:
 - name: spawner-environ
   behavior: merge
-  literals:
-  - APPLICATION_NAME="lab-asciidoc-sample"
-  - TERMINAL_IMAGE="quay.io/openshifthomeroom/lab-asciidoc-sample:1.8"
-  - RESOURCE_BUDGET="small"
-  - MAX_SESSION_AGE="900"
-  - IDLE_TIMEOUT="300"
+  env: settings.sh
 
 patches:
-- .workshop/ingress.yaml
+- ingress.yaml
