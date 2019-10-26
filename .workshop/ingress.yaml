@@ -7,10 +7,10 @@ metadata:
     homeroom/description: "A sample workshop using AsciiDoc."
 spec:
   rules:
-  - http:
+  - host: "lab-asciidoc-sample.${CLUSTER_SUBDOMAIN}"
+    http:
       paths:
-      - host: "lab-asciidoc-sample.${CLUSTER_SUBDOMAIN}"
-        path: "/"
+      - path: "/"
         backend:
           serviceName: spawner
           servicePort: 8080
