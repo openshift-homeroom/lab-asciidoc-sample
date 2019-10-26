@@ -5,3 +5,12 @@ metadata:
   annotations:
     homeroom/title: "AsciiDoc Sample"
     homeroom/description: "A sample workshop using AsciiDoc."
+spec:
+  rules:
+  - http:
+      paths:
+      - host: "lab-asciidoc-sample.${CLUSTER_SUBDOMAIN}"
+        path: "/"
+        backend:
+          serviceName: spawner
+          servicePort: 8080
